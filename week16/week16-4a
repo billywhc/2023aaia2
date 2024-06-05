@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+  int a;scanf("%d",&a);
+  int s=a%60;
+  int n=(a/60)%60;
+  int h=(a/60/60)%60;
+  printf("%02d:%02d:%02d",h,n,s);
+  return 0;
+}
